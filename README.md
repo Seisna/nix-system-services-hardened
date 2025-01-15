@@ -18,6 +18,8 @@ System services hardened (lynis BOOT-5264) under nixos.
   </div>
 </h1>
 
+Suggest you to see https://linux-audit.com, if you are interested of how to hardened your config.
+
 ```sh
 ❯ systemd-analyze security
 UNIT                                  EXPOSURE PREDICATE HAPPY
@@ -55,10 +57,16 @@ systemd-udevd.service                      4.9 OK        🙂
 user@1000.service                          4.8 OK        🙂
 wpa_supplicant.service                     2.7 OK        🙂
 ```
+---
+Usefull commands:
+* Check service log: `journalctl -u SERVICE_NAME`
+* Check service security: `systemd-analyze security SERVICE_NAME`
+* Check services security: `systemd-analyze security`
 
+---
 Just a repo to show you how i hardened my nixos config 🙂.\
 I know it's not perfect, i want to give you help because during my hardening, i didn't find any repo that provide example file.\
 If you want to suggest any improvement, make a PR. 
 If you find any error, make an issue. 
 
-Love u guys <3.
+Love u guys 💜.
