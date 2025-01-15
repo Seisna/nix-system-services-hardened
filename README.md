@@ -29,6 +29,8 @@ NetworkManager.service                     4.2 OK        🙂
 accounts-daemon.service                    2.9 OK        🙂
 acpid.service                              4.8 OK        🙂
 auditd.service                             4.0 OK        🙂
+blocky.service                             4.2 OK        🙂
+bluetooth.service                          4.7 OK        🙂
 colord.service                             4.9 OK        🙂
 cups.service                               4.8 OK        🙂
 dbus.service                               4.2 OK        🙂
