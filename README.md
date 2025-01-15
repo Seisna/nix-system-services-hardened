@@ -39,7 +39,7 @@ docker.service                             4.8 OK        🙂
 getty@tty1.service                         4.7 OK        🙂
 getty@tty2.service                         4.7 OK        🙂
 getty@tty7.service                         4.7 OK        🙂
-nix-daemon.service                         4.6 OK        🙂
+nix-daemon.service                         4.9 OK        🙂
 nscd.service                               4.9 OK        🙂
 polkit.service                             1.2 OK        🙂
 reload-systemd-vconsole-setup.service      4.9 OK        🙂
