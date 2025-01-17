@@ -1,14 +1,15 @@
 # nix-system-services-hardened
-System services hardened (lynis BOOT-5264) under nixos.
 
-<h1 align="left">
+<h3 align="left">
   <div>
     <a href="https://github.com/YvesCousteau/nix-system-services-hardened/issues">
         <img src="https://img.shields.io/github/issues/YvesCousteau/nix-system-services-hardened?color=cc241d&labelColor=fbf1c7&style=for-the-badge">
     </a>
+    <br>
     <a href="https://github.com/YvesCousteau/nix-system-services-hardened/stargazers">
         <img src="https://img.shields.io/github/stars/YvesCousteau/nix-system-services-hardened?color=98971a&labelColor=fbf1c7&style=for-the-badge">
     </a>
+    <br>
     <a href="https://github.com/YvesCousteau/nix-system-services-hardened/">
         <img src="https://img.shields.io/github/repo-size/YvesCousteau/nix-system-services-hardened?color=d79921&labelColor=fbf1c7&style=for-the-badge">
     </a>
@@ -16,8 +17,11 @@ System services hardened (lynis BOOT-5264) under nixos.
     <img src="https://img.shields.io/badge/NixOS-25.05.20250113.9abb87b (Warbler)-blue?color=blue&labelColor=fbf1c7&style=for-the-badge">
     <br>
   </div>
-</h1>
+</h3>
 
+## :zap: Hardening Result
+
+System services hardened (lynis BOOT-5264) under nixos.\
 Suggest you to see https://linux-audit.com, if you are interested of how to hardened your config.
 
 ```sh
@@ -59,16 +63,29 @@ systemd-udevd.service                      4.9 OK        🙂
 user@1000.service                          4.8 OK        🙂
 wpa_supplicant.service                     2.7 OK        🙂
 ```
----
-Usefull commands:
+
+## ⌨️ Commands
+
 * Check service log: `journalctl -u SERVICE_NAME`
 * Check service security: `systemd-analyze security SERVICE_NAME`
 * Check services security: `systemd-analyze security`
 
----
-Just a repo to show you how i hardened my nixos config 🙂.\
-I know it's not perfect, i want to give you help because during my hardening, i didn't find any repo that provide example file.\
-If you want to suggest any improvement, make a PR. 
-If you find any error, make an issue. 
+## :book: Note
+1. Why i did it:
+    * I didn't find any repo which provide hardened system service configs.
+    * So the idea merged i my head to do it for nix lovers and others.
+2. What you can find inside this repo:
+    * Each system service config file for listed above.
+3. Keep in mind:
+    * I know it's not perfect, i want to give you help that i couldn't find.
+    * If you want to suggest any improvement, make a PR. 
+    * If you find any error, make an issue. 
 
-Love u guys 💜.
+## 📜 License
+
+Apache License - see the [LICENSE](LICENSE) file for details.
+
+## 💝 Acknowledgements
+
+Love u guys 💜.\
+Buy me a coffe if you've a mind to: `1CJwob8qgoX7e897fupbyu3VbATMkgBpwM`
