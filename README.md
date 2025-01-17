@@ -88,4 +88,6 @@ Apache License - see the [LICENSE](LICENSE) file for details.
 ## 💝 Acknowledgements
 
 Love u guys 💜.\
-Buy me a coffe if you've a mind to: `1CJwob8qgoX7e897fupbyu3VbATMkgBpwM`
+Buy me a coffe if you've a mind to:`1CJwob8qgoX7e897fupbyu3VbATMkgBpwM`\
+\
+![image](./qr-btc.png)
